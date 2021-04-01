@@ -11,7 +11,7 @@ YouTube Together Example Bot
 - now run the bot with `npm start`
 
 # YouTube Together
-- run `a!yttogether <channelid>
+- run `a!yttogether <channelid>`
 - join with the invite created by your bot
 
 # Default command prefix
