@@ -5,7 +5,7 @@ YouTube Together Example Bot
 **[discord.js](https://discord.js.org)**
 
 # Bot
-**[Click here to invite](https://discord.com/api/oauth2/authorize?client_id=674970405865390092&permissions=1025&scope=bot)**
+**[Click here to invite](https://discord.com/api/oauth2/authorize?client_id=674970405865390092&permissions=3073&scope=bot)**
 
 # Installing
 - clone this repo
