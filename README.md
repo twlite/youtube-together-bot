@@ -17,5 +17,10 @@ YouTube Together Example Bot
 # Default command prefix
 `a!`
 
+# Preview
+![](https://raw.githubusercontent.com/Snowflake107/youtube-together-bot/main/preview/1.png)
+
+![](https://raw.githubusercontent.com/Snowflake107/youtube-together-bot/main/preview/2.png)
+
 # Discord
 [![](https://i.imgur.com/f6hNUfc.png)](https://discord.gg/2SUybzb)
