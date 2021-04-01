@@ -1,0 +1,28 @@
+{
+  "name": "activities",
+  "version": "1.0.0",
+  "description": "Discord bot to create YouTube Together Activity",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snowflake107/youtube-together-bot.git"
+  },
+  "keywords": [
+    "youtube-together",
+    "discord",
+    "activities"
+  ],
+  "author": "Snowflake107",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Snowflake107/youtube-together-bot/issues"
+  },
+  "homepage": "https://github.com/Snowflake107/youtube-together-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.2",
+    "dotenv": "^8.2.0"
+  }
+}
