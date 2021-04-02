@@ -59,7 +59,7 @@ client.on("message", async message => {
         })
             .then(res => res.json())
             .then(invite => {
-                if (!invite.code) return message.channel.send("❌ | Could not start **YouTube Together**!");
+                if (invite.error || !invite.code) return message.channel.send("❌ | Could not start **YouTube Together**!");
                 message.channel.send(`✅ | Click here to start **YouTube Together** in ${channel.name}: <https://discord.gg/${invite.code}>`);
             })
             .catch(e => {
@@ -92,7 +92,7 @@ client.on("message", async message => {
         })
             .then(res => res.json())
             .then(invite => {
-                if (!invite.code) return message.channel.send(`❌ | Could not start **${activity.name}**!`);
+                if (invite.error || !invite.code) return message.channel.send(`❌ | Could not start **${activity.name}**!`);
                 message.channel.send(`✅ | Click here to start **${activity.name}** in **${channel.name}**: <https://discord.gg/${invite.code}>`);
             })
             .catch(e => {
